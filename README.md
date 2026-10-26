@@ -6,10 +6,22 @@ even if several people try at the same moment.
 
 **Stack:** Java 21 · Spring Boot 3.3 · PostgreSQL 16 · React 18 + TypeScript (Vite) · React Router 7
 
+## Live demo
+
+- **App (clients):** https://pilates-booking-psi.vercel.app
+- **Instructor view:** https://pilates-booking-psi.vercel.app/instructor
+- **API:** https://pilates-booking-api.onrender.com/api/classes
+
+Hosted on Vercel (frontend), Render (backend) and Neon (PostgreSQL), all on free plans.
+
+> The backend runs on Render's free plan and sleeps after ~15 minutes without traffic. The first page load after
+> that can take up to a minute while it wakes up ("Loading classes…"); after that it is fast.
+
 ---
 
 ## Contents
 
+- [Live demo](#live-demo)
 - [Features](#features)
 - [Project structure](#project-structure)
 - [Running locally](#running-locally)
