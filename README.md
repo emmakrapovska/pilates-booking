@@ -32,7 +32,6 @@ Hosted on Vercel (frontend), Render (backend) and Neon (PostgreSQL), all on free
 - [Frontend overview](#frontend-overview)
 - [Deploying](#deploying)
 - [Design decisions](#design-decisions)
-- [AI tools used](#ai-tools-used)
 
 ---
 
@@ -306,9 +305,3 @@ There is no global state library or Context: the component tree is shallow and p
 - **No login.** The brief doesn't require authentication, so the Instructor view is open to anyone with the link.
 - **Schema via Hibernate `ddl-auto=update`**: simple for a project this size; Flyway would be the next step.
 
----
-
-## AI tools used
-
-Built with Claude (Claude Code) for scaffolding the Spring Boot and React code, which I then reviewed and adapted.
-<!-- Add here what you changed/decided yourself. -->
